@@ -7,17 +7,14 @@ const AddContactForm = ({ addContact }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Crear un nuevo objeto de contacto
+    //Crear un nuevo contacto
     const newContact = {
       id: Date.now(),
       name,
       phone,
     };
 
-    // Llamar a la función addContact que fue pasada como prop
     addContact(newContact);
-
-    // Limpiar los campos del formulario
     setName('');
     setPhone('');
   };
