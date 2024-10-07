@@ -1,4 +1,4 @@
-#Actividad 1. Conectar API con frontend
+# Actividad 1. Conectar API con frontend
 
 ¡Bienvenido a ContactosApp! Este proyecto permite gestionar contactos utilizando un frontend en React y un backend en Express. El backend obtiene los contactos de la API pública `https://jsonplaceholder.typicode.com/users` y los expone de forma aleatoria cada vez que el usuario recarga la aplicación. El frontend consume estos datos para mostrarlos y permite a los usuarios realizar búsquedas y añadir contactos localmente.
 
